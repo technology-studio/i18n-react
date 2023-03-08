@@ -5,6 +5,8 @@
  * @Copyright: Technology Studio
 **/
 
+import { isNotEmptyString } from '@txo/functional'
+
 const supportedLocaleList = [
   'sk',
   'hu',
@@ -40,13 +42,13 @@ export const getSupportedLocale = (locale: string): string => {
 
   const split = normalizedLocale.split('-')
   let index = split.length
-  const next = normalizedLocale ? normalizedLocale.split('-') : null
+  const next = isNotEmptyString(normalizedLocale) ? normalizedLocale.split('-') : null
   while (index > 0) {
     const localeCandidate = split.slice(0, index).join('-')
     if (isLocaleSupported(localeCandidate)) {
       return localeCandidate
     }
-    if (next && next.length >= index && compareArrays(split, next) >= index - 1) {
+    if ((next != null) && next.length >= index && compareArrays(split, next) >= index - 1) {
       // the next array item is better than a shallower substring of this one
       break
     }
