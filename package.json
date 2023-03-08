@@ -33,7 +33,9 @@
     "semantic-release": "semantic-release",
     "update-boilerplate-version": "./scripts/update-boilerplate-version.sh"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@txo/functional": "^4.6.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
