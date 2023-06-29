@@ -4320,10 +4320,10 @@ husky@^8.0.3:
   resolved "https://registry.yarnpkg.com/husky/-/husky-8.0.3.tgz#4936d7212e46d1dea28fef29bb3a108872cd9184"
   integrity sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==
 
-i18next@^23.2.5:
-  version "23.2.5"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.2.5.tgz#3d0534905460baea8cfb254c97a2aaabfc900359"
-  integrity sha512-x9PUkAjm6APvEfaLhDjBuIPs6TEvwXAveQmIrDKKRYyZGA9v5oKdBzbzhLNKjPZfz7+t9mYW5JIJXt4VXHH4zA==
+i18next@^23.2.6:
+  version "23.2.6"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-23.2.6.tgz#70c09517c301f206615acd6fc35b4a2570629300"
+  integrity sha512-i0P2XBisewaICJ7UQtwymeJj6cXUigM+s8XNIXmWk4oJ8iTok2taCbOTX0ps+u9DFcQ6FWH6xLIU0dLEnMaNbA==
   dependencies:
     "@babel/runtime" "^7.22.5"
 
