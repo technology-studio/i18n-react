@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/technology-studio/i18n-react/compare/v1.0.6...v1.0.7) (2023-07-22)
+
+
+### Bug fixes
+
+* **deps:** update dependency @txo/functional to ^4.6.7 ([0bbd111](https://github.com/technology-studio/i18n-react/commit/0bbd1118e49914500e385488889d283ab2f0b7a0))
+
 ## [1.0.6](https://github.com/technology-studio/i18n-react/compare/v1.0.5...v1.0.6) (2023-07-22)
 
 
