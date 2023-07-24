@@ -34,7 +34,7 @@
     "update-boilerplate-version": "./scripts/update-boilerplate-version.sh"
   },
   "dependencies": {
-    "@txo/functional": "^4.6.9"
+    "@txo/functional": "^4.6.10"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.7",
