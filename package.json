@@ -68,7 +68,7 @@
     "lint-staged": "^13.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^13.0.2",
+    "react-i18next": "^13.0.3",
     "redux-saga": "^1.2.3",
     "rimraf": "^5.0.1",
     "semantic-release": "^21.0.7",
