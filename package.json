@@ -1,6 +1,6 @@
 {
   "name": "@txo/i18n-react",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Technology Studio - I18n react",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
