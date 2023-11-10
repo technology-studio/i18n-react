@@ -5,7 +5,7 @@
  * @Copyright: Technology Studio
 **/
 
-import { isNotEmptyString } from '@txo/functional'
+import { isNotEmptyString } from '@txo/types'
 
 const supportedLocaleList = [
   'sk',

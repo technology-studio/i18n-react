@@ -5,8 +5,8 @@
  * @Copyright: Technology Studio
 **/
 
-import { isNotEmptyString } from '@txo/functional'
-import i18next from 'i18next'
+import { isNotEmptyString } from '@txo/types'
+import { t } from 'i18next'
 
 const NOT_LOCALIZED = '@NOT_LOCALIZED'
 
@@ -14,6 +14,6 @@ export const getLocalization = ({ text, textLocalizationKey }: { text?: string, 
   isNotEmptyString(text)
     ? text
     : isNotEmptyString(textLocalizationKey)
-      ? i18next.t(textLocalizationKey)
+      ? t(textLocalizationKey)
       : NOT_LOCALIZED
 )

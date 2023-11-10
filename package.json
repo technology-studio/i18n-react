@@ -34,7 +34,7 @@
     "update-boilerplate-version": "./scripts/update-boilerplate-version.sh"
   },
   "dependencies": {
-    "@txo/functional": "^4.6.15"
+    "@txo/types": "^1.7.0"
   },
   "devDependencies": {
     "@txo-peer-dep/log": "^4.0.2",
