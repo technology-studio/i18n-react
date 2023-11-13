@@ -5,7 +5,7 @@
  * @Copyright: Technology Studio
 **/
 
-import { isNotEmptyString } from '@txo/functional'
+import { isNotEmptyString } from '@txo/types'
 import i18next from 'i18next'
 
 const NOT_LOCALIZED = '@NOT_LOCALIZED'
@@ -14,6 +14,7 @@ export const getLocalization = ({ text, textLocalizationKey }: { text?: string, 
   isNotEmptyString(text)
     ? text
     : isNotEmptyString(textLocalizationKey)
+      // eslint-disable-next-line import/no-named-as-default-member
       ? i18next.t(textLocalizationKey)
       : NOT_LOCALIZED
 )
