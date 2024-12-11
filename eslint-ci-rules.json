@@ -1,0 +1,6 @@
+[
+  "@typescript-eslint/no-magic-numbers",
+  "eslint-comments/require-description",
+  "complexity",
+  "@typescript-eslint/prefer-destructuring"
+]
