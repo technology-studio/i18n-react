@@ -14,7 +14,6 @@ export const getLocalization = ({ text, textLocalizationKey }: { text?: string, 
   isNotEmptyString(text)
     ? text
     : isNotEmptyString(textLocalizationKey)
-      // eslint-disable-next-line import/no-named-as-default-member
       ? i18next.t(textLocalizationKey)
       : NOT_LOCALIZED
 )
