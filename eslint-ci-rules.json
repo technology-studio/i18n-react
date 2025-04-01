@@ -1,5 +1,4 @@
 [
   "@typescript-eslint/no-magic-numbers",
-  "complexity",
   "@typescript-eslint/prefer-destructuring"
 ]
